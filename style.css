@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-image: url(image/bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.container2 {
+    display: none;
+}
+.container2 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.container2 ul li {
+    margin: 15px 0;
+}
+.container2 ul li a {
+    color: #333;
+    text-decoration: none;
+}
+.container2,
+.container1 {
+    width: 360px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.row .form-div h3 {
+    text-align: center;
+    color: #777;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.row .form-div input {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: 0;
+    background-color: transparent;
+}
+
+::placeholder {
+    color: #777;
+}
+
+.btn-box {
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.btn-box button {
+    width: 110px;
+    height: 35px;
+    margin: 0 10px;
+    text-align: center;
+    background-image: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.row .form-div {
+    width: 280px;
+    position: absolute;
+    top: 3rem;
+    transition: .5s;
+}
+
+#form1 {
+    left: 40px;
+}
+#form2,
+#form3,
+#form4 {
+    left: 450px;
+}
+
+.step-row {
+    width: 360px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 -1px 5px -1px #000;
+}
+
+.step-col {
+    /* height: 40px;
+    line-height: 40px; */
+    cursor: pointer;
+    width: 120px;
+    color: #333;
+    position: relative;
+    text-align: center;
+}
+
+#progress {
+    width: 120px;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(to right, #ff105f, #ffad06);
+    transition: 1s;
+}
+
+#progress::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid transparent;
+    border-top: 20px solid transparent;
+    border-left: 20px solid #ffad06;
+    position: absolute;
+    top: 0;
+    right: -20px;
+}
+.err{
+    color: red;
+}
+

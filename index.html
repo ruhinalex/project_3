@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div class="body">
+        <div class="container1">
+
+            <div class="row">
+                <form action="#">
+                    <div id="form1" class="form-div">
+                        <h3>CREATE ACOUNT</h3>
+                        <input id="email" type="email" placeholder="Email..." required>
+                        <span id="errorEmail" class="err"></span>
+                        <input id="password1" type="password" placeholder="New Password" required>
+                        <span id="errorPassword1" class="err"></span>
+                        <input id="password2" type="password" placeholder="Conform Password" required>
+                        <span id="errorPassword2" class="err"></span>
+
+                        <div class="btn-box">
+                            <button type="button" id="next1">Next</button>
+                        </div>
+                    </div>
+
+                    <div id="form2" class="form-div">
+                        <h3>SOCIAL LIND</h3>
+                        <input id="link1" type="text" placeholder="Facebook" required>
+                        <input id="link2" type="text" placeholder="Github" required>
+                        <input id="link3" type="text" placeholder="Linkedin" required>
+
+                        <div class="btn-box">
+                            <button type="button" id="back1">Back</button>
+                            <button type="button" id="next2">Next</button>
+                        </div>
+                    </div>
+
+                    <div id="form3" class="form-div">
+                        <h3>PERSONAL INFO</h3>
+                        <input id="fristName" type="text" placeholder="Frist Nmae" required>
+                        <span id="errorFristName" class="err"></span>
+                        <input id="lastName" type="text" placeholder="Last Nmae" required>
+                        <span id="errorLastName" class="err"></span>
+                        <input id="mobileNo" type="text" placeholder="Mobile No" required>
+                        <span id="errorMobileNo" class="err"></span>
+
+                        <div class="btn-box">
+                            <button type="button" id="back2">Back</button>
+                            <button type="button" id="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+                <div id="form4" class="form-div">
+                    <h3>LOGING</h3>
+                    <input id="logingEmail" type="email" placeholder="Email" required>
+                    <span id="errorlogingEmail" class="err"></span>
+                    <input id="logingpassword" type="password" placeholder="Password" required>
+                    <span id="errorlogingpassword" class="err"></span>
+
+                    <div class="btn-box">
+                        <button type="button" id="logingBtn">LOGING</button>
+                    </div>
+                </div>
+                <div class="step-row">
+                    <div id="progress"></div>
+                    <div id="step1" class="step-col">step1</div>
+                    <div id="step2" class="step-col">step2</div>
+                    <div id="step3" class="step-col">step3</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container2">
+            <ul id="unorderList">
+
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
